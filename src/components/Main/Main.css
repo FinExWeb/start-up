@@ -1,0 +1,187 @@
+.hero {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.hero .row .content--hero .user hr {
+    width: 100px;
+    margin: 0 10px;
+    opacity: 0.20000000298023224;
+    background: #201F1F;
+}
+
+.hero .row .content--hero .user span {
+    color: rgba(32, 31, 31, 0.20);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.hero .row .content--hero .content h1 {
+    color: #201F1F;
+    font-family: sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+
+.hero .row .content--hero .content h1 span {
+    color: #5C4EAE;
+}
+
+.hero .row .content--hero .content p {
+    color: #676767;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.699999988079071;
+}
+
+.hero .row .content--hero .buttonProVersion button {
+    max-width: 156px;
+    height: 59px;
+    padding: 5px 30px;
+    font-family: sans-serif;
+    font-size: 16.271px;
+    font-weight: 500;
+    letter-spacing: 0.163px;
+    outline: none;
+}
+
+.hero .row .content--hero .buttonProVersion button:nth-child(1) {
+    border-radius: 12.412px;
+    background: #6C5FBC;
+    border: none;
+    color: #fff;
+}
+
+.hero .row .content--hero .buttonProVersion button:nth-child(2) {
+    border-radius: 12.412px;
+    border: 1.5px solid #6C5FBC;
+    background: none;
+    color: #6C5FBC;
+    margin: auto 10px;
+}
+
+.hero .hero--images img {
+    image-rendering: pixelated;
+}
+
+@media screen and (max-width: 834px) {
+    .hero .row .content--hero .content h1 {
+        font-size: 43px;
+        text-align: start;
+    }
+
+    .hero .row .content--hero .content p {
+        font-size: 17px;
+        text-align: start;
+    }
+
+    .hero .row .content--hero {
+        display: unset;
+    }
+
+    .hero .hero--images img {
+        width: 100%;
+    }
+
+    .hero .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero .row .content--hero .buttonProVersion button {
+        max-width: 150px;
+        height: 50px;
+        padding: 5px 30px;
+        font-size: 13px;
+    }
+
+    .hero .row .content--hero .buttonProVersion {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1347px) {
+    .hero .hero--images img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .hero .row .content--hero {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero .row .content--hero .content h1 {
+        font-size: 50px;
+    }
+
+    .hero .row .content--hero .content p {
+        font-size: 15px;
+    }
+
+    .hero .hero--images img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero .row .content--hero .content h1 {
+        font-size: 37px;
+        text-align: start;
+    }
+
+    .hero .row .content--hero .content p {
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .hero .row .content--hero {
+        display: unset;
+    }
+
+    .hero .hero--images img {
+        width: 100%;
+    }
+
+    .hero .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero .row .content--hero .buttonProVersion button {
+        max-width: 123px;
+        height: 47px;
+        padding: 5px 30px;
+        font-size: 11.271px;
+    }
+
+    .hero .row .content--hero .buttonProVersion {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .hero .row .content--hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .row .content--hero .content p {
+        text-align: center;
+    }
+
+    .hero .row .content--hero .content h1 {
+        text-align: center;
+    }
+}

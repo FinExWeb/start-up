@@ -1,0 +1,28 @@
+.footer {
+    background: #EAEAEA;
+    padding: 20px;
+}
+
+.footer .brend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social-media img {
+    margin: 0 20px;
+}
+
+.footer p {
+    text-align: center;
+    color: #999;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}

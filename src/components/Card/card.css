@@ -1,0 +1,55 @@
+.card {
+    padding: 20px;
+    border-radius: 34.665px !important;
+    background: #F9F9F9 !important;
+    border: 1.444px solid #F4F4F6 !important;
+    box-shadow: 6.864902973175049px 82.37885284423828px 41.18942642211914px 0px rgba(229, 229, 229, 0.70) !important;
+    margin: 10px;
+    width: 265px;
+}
+
+.card .cardFood {
+    image-rendering: optimizeSpeed;
+    width: 210px;
+}
+
+.card .content h4 {
+    color: #323142;
+    font-family: sans-serif;
+    font-size: 23.11px;
+    font-weight: 600;
+}
+
+.card .content section {
+    margin: 5px -5px;
+}
+
+.card .content section span {
+    margin: 0 5px;
+    color: #8E97A6;
+    font-family: Manrope;
+    font-size: 17.332px;
+    font-weight: 400;
+}
+
+.card section h3 {
+    color: #121826;
+    font-family: Manrope;
+    font-size: 25.998px;
+    font-weight: 700;
+}
+
+.card section button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.card section button img {
+    width: 40px;
+    transition: 0.2s;
+}
+
+.card section button img:active {
+    transform: scale(1.1);
+}
