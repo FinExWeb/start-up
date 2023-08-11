@@ -39,10 +39,10 @@ function Navbar() {
 
                 <div className="forms">
                     <form>
-                        <Link to='#'>
+                        <Link to='/login'>
                             <input type="button" value='Kirish' />
                         </Link>
-                        <Link to='#'>
+                        <Link to='/register'>
                             <input id='button' type="button" value='Yaratish' />
                         </Link>
                     </form>

@@ -1,20 +1,49 @@
-.container h3 {
+.container p {
     color: #201F1F;
     font-family: sans-serif;
     font-size: 50px;
     font-weight: 900;
     letter-spacing: -3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.container h3 span {
+.container p span {
     color: #5C4EAE;
     margin: 0 10px;
 }
 
-.container h3 img {
+.container p img {
     width: 65px;
     margin: 0 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container p {
+        font-size: 30px;
+    }
+
+    .container p img {
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .container p {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+
+    .container p img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container p {
+        font-size: 20px;
+    }
+
+    .container p img {
+        width: 40px;
+    }
 }

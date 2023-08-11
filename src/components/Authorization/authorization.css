@@ -1,0 +1,81 @@
+
+.container .row .col-md-6 .login h2 {
+    color: #323142;
+    font-family: sans-serif;
+    font-size: 35.25px;
+    font-weight: 600;
+    letter-spacing: -1.41px;
+    text-transform: uppercase;
+}
+
+.container .login form input {
+    border-radius: 14.275px;
+    background: #F5F5F5;
+    outline: none;
+    border: none;
+    padding: 20px 30px;
+    width: 382px;
+    margin: 10px 0;
+
+    color: #6C5FBC;
+    font-family: sans-serif;
+    font-size: 16.676px;
+    font-weight: 500;
+    letter-spacing: 0.334px;
+    text-transform: capitalize;
+}
+
+.container .login form input::placeholder {
+    color: #C2C3CB;
+    font-family: sans-serif;
+    font-size: 16.676px;
+    font-weight: 600;
+    letter-spacing: 1.167px;
+    text-transform: uppercase;
+}
+
+.container .row .col-md-6 .login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .login form button {
+    border-radius: 15.564px;
+    background: #6C5FBC;
+    color: #F3F5F6;
+    padding: 17px 40px;
+    width: 382px;
+    text-transform: uppercase;
+    letter-spacing: 0.534px;
+    font-weight: 600;
+    font-size: 17.788px;
+}
+
+.container .login .copyright .row .col p {
+    color: var(--greyscale-600, #718096);
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.container .login h5 {
+    font-family: sans-serif;
+    font-size: 18.9px;
+    font-weight: 700;
+    letter-spacing: 0.189px;
+    color: #CBCBCB;
+}
+
+.container .login h5 a {
+    color: #6C5FBC;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 18.9px;
+    font-weight: 700;
+    letter-spacing: 0.189px;
+
+    
+}

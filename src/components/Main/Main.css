@@ -50,14 +50,14 @@
     outline: none;
 }
 
-.hero .row .content--hero .buttonProVersion button:nth-child(1) {
+.hero .row .content--hero .buttonProVersion a:nth-child(1) button {
     border-radius: 12.412px;
     background: #6C5FBC;
     border: none;
     color: #fff;
 }
 
-.hero .row .content--hero .buttonProVersion button:nth-child(2) {
+.hero .row .content--hero .buttonProVersion a:nth-child(2) button {
     border-radius: 12.412px;
     border: 1.5px solid #6C5FBC;
     background: none;

@@ -20,7 +20,7 @@ function Card() {
         </div>
         <section className="my-2 d-flex justify-content-between align-items-center">
           <h3>13.000 so'm</h3>
-          <button>
+          <button style={{width: 'auto'}}>
             <img src={plus} alt="" />
           </button>
         </section>

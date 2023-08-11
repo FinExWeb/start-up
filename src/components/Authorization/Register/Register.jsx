@@ -1,0 +1,40 @@
+import React from "react";
+import "../authorization.css";
+import { Link } from "react-router-dom";
+
+function Register() {
+  return (
+    <>
+      <div className="container auth py-5">
+        <div className="row d-flex align-items-center justify-content-center">
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
+            <div className="login">
+              <h2 className="text-center">Ro’yhatdan o’ting</h2>
+              <form action="#" className="my-5">
+                <input type="text" placeholder="FIO kiriting" />
+                <input type="text" placeholder="Telefon raqamingizni kiriting" />
+                <input type="email" placeholder="Emailingizni kiriting" />
+                <input type="password" placeholder="Parolingizni kiriting" />
+                <button>kirish</button>
+              </form>
+              <h5 className="text-center">
+                Accountingiz yo'qmi? <Link to="/login">Yaratish</Link>
+              </h5>
+
+              <div className="copyright my-5 text-center">
+                <div className="row">
+                  <div className="col">
+                    <p className="m-0">Barcha ma’lumotlar himoya qilinadi</p>
+                    <p>Copyright 2023.FinEx</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Register;

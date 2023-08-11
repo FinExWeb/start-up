@@ -1,0 +1,114 @@
+.forms-app p {
+    color: #201F1F;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+
+.forms-app p span {
+    color: #5C4EAE;
+    margin: 0 10px;
+}
+
+.forms-app p img {
+    width: 65px;
+    margin: 0 5px;
+}
+
+.forms-app form input,
+textarea,
+button {
+    border-radius: 16.892px;
+    border: 2px solid #6C5FBC;
+    background: #F9F9F9;
+    outline: none;
+    padding: 10px;
+    color: #656565;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25.338px;
+    text-transform: uppercase;
+    background: none;
+    width: 25rem;
+    margin: 10px 0;
+}
+
+.forms-app form input::placeholder,
+textarea::placeholder {
+    color: #B6B6B6;
+}
+
+.forms-app form input {
+    height: 4rem;
+}
+
+.forms-app form textarea {
+    height: 18rem;
+    margin: 5px 0;
+}
+
+.forms-app form button {
+    color: #F9F9F9;
+    border-radius: 0.99225rem;
+    background: #6C5FBC;
+    width: 25rem;
+    height: 4rem;
+    letter-spacing: 0.039rem;
+    font-size: 1.30075rem;
+}
+
+@media screen and (max-width: 992px) {
+    .forms-app p {
+        font-size: 40px;
+    }
+
+    forms-app p img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .forms-app form input,
+    textarea {
+        width: 18rem;
+    }
+
+    .forms-app form button {
+        width: 18rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .forms-app p {
+        font-size: 30px;
+    }
+
+    .forms-app p img {
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .forms-app p {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+
+    .forms-app p img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .forms-app p {
+        font-size: 20px;
+    }
+
+    .forms-app p img {
+        width: 40px;
+    }
+}

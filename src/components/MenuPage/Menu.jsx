@@ -6,12 +6,11 @@ function Menu() {
   return (
     <>
       <div className="container">
-        <h3 className="text-center my-3">
-          ENG YAXSHI <span> OVQATLAR</span> FAQAT <span>SIZ UCHUN</span>!{" "}
-          <img src={FoodIcon} alt="FoodIcon" />
-        </h3>
+        <p className="text-center my-3 fs-2">
+          ENG YAXSHI <span> OVQATLAR</span> FAQAT <span>SIZ UCHUN</span>!
+          <img style={{position: 'relative', bottom: '10px'}} src={FoodIcon} alt="FoodIcon" />
+        </p>
         <div className="cards my-5">
-          <Card />
           <Card />
           <Card />
           <Card />
