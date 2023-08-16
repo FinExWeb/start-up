@@ -9,7 +9,7 @@ function Login() {
         <div className="row d-flex align-items-center justify-content-center">
           <div className="col-md-6 d-flex align-items-center justify-content-center">
             <div className="login">
-              <h2 className="text-center">Ro’yhatdan o’ting</h2>
+              <h2 className="text-center">KIRISH</h2>
               <form action="#" className="my-5">
                 <input type="email" placeholder="Emailingizni kiriting" />
                 <input type="password" placeholder="Parolingizni kiriting" />
