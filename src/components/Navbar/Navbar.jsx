@@ -72,22 +72,23 @@ function Navbar() {
                                 <img src={Home} alt="Home" />
                             </Link>
 
-                            <Link to='/'>
+                            <Link to='/menu'>
                                 <span>Menu</span>
                                 <img src={Menu} alt="Menu" />
                             </Link>
 
-                            <Link to='/'>
+                            <Link to='/problems'>
                                 <span>Shikoyat</span>
                                 <img src={Contact} alt="Contact" />
                             </Link>
                         </ul>
+
                         <div className="forms">
                             <form>
-                                <Link to='#'>
+                                <Link to='/login'>
                                     <input type="button" value='Kirish' />
                                 </Link>
-                                <Link to='#'>
+                                <Link to='/register'>
                                     <input id='button' type="button" value='Yaratish' />
                                 </Link>
                             </form>
