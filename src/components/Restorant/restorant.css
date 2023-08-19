@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css2?family=Poller+One&display=swap);
+
+.restorant .cards {
+  background: url(./Background/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 651px;
+  height: 401px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.restorant .cards .left {
+  background-image: url(./Background/CardBG.svg);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 271px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 25px 15px;
+}
+
+.restorant .cards .left .logo {
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  background: #d9d9d9;
+  display: flex;
+  align-items: ce;
+  justify-content: center;
+  margin: 70px 0;
+}
+
+.restorant .cards .right {
+  width: 380px;
+}
+
+.restorant .cards .right .restorant-name h4 {
+  color: #dedcec;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poller One;
+  font-size: 33px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Inder&display=swap);
+.restorant .cards .right ul {
+  margin: 10px 30px;
+}
+.restorant .cards .right ul li {
+  margin: 10px 0;
+}
+.restorant .cards .right ul li span {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inder", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+.restorant .cards .right .footer-text {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 50px;
+  left: -20px;
+  opacity: 0.6;
+}
+
+.restorant .cards .right .footer-text h5 {
+  color: #ffd397;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inder", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 5px;
+}
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+.restorant .buttonsLike {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 100%;
+}
+.restorant .buttonsLike button {
+  border-radius: 8px;
+  background: #4a55a2 !important;
+  outline: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  width: 480px;
+  height: 65px;
+  margin: 0 5px;
+}
+
+.restorant .buttonsLike #like-dislike button {
+  width: 65px;
+  height: 65px;
+  transition: 0.1s all;
+}
+.restorant .buttonsLike #like-dislike button:hover img {
+  animation: heart 0.3s infinite ease-out;
+}
+@keyframes heart {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+
+  80% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.restorant .buttonsLike #like-dislike button img {
+  margin: 0 -5px;
+}
+.restorant .buttonsLike #like-dislike button:active {
+  transform: rotate(20deg);
+}
