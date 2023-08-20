@@ -83,7 +83,6 @@
 .restorant .buttonsLike {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
   width: 100%;
 }
 .restorant .buttonsLike button {
@@ -97,7 +96,7 @@
   border: none;
   width: 480px;
   height: 65px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .restorant .buttonsLike #like-dislike button {
@@ -128,4 +127,141 @@
 }
 .restorant .buttonsLike #like-dislike button:active {
   transform: rotate(20deg);
+}
+
+@media (min-width: 1366px) {
+  .restorant .cards {
+    max-width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .restorant .cards .right {
+    width: 229px;
+  }
+  .restorant .cards .right ul {
+    margin: 10px 3px;
+  }
+  .restorant .cards .right .restorant-name h4 {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  .restorant .cards .right ul li span {
+    font-size: 14px;
+    margin: 0 -1px;
+  }
+  .restorant-name img {
+    width: 30px;
+  }
+  .restorant .cards .right .footer-text h5 {
+    margin: 0 -2px;
+    font-size: 15px;
+  }
+  .restorant .cards .right .footer-text img {
+    width: 20px;
+  }
+  .restorant .cards .right .footer-text {
+    top: 15px;
+  }
+  .qr {
+    width: 75%;
+  }
+  .restorant .cards .left .logo {
+    width: 170px;
+    height: 50px;
+    padding: 5px;
+  }
+  .restorant .cards .left .logo img {
+    width: 115px;
+  }
+  .restorant .cards .left {
+    border-radius: 0 0 0 15px;
+  }
+  .restorant .buttonsLike button {
+    width: 370px;
+    height: 45px;
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  .restorant .buttonsLike #like-dislike button {
+    width: 45px;
+    height: 45px;
+  }
+  .restorant .buttonsLike #like-dislike button img {
+    width: 30px;
+  }
+  .restorant .cards .left {
+    justify-content: end;
+  }
+  .hero .row .content--hero .content h1 {
+    font-size: 55px;
+  }
+}
+@media (max-width: 1366px) {
+  .restorant .cards {
+    max-width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  .restorant .cards .right {
+    width: 229px;
+  }
+  .restorant .cards .right ul {
+    margin: 10px 3px;
+  }
+  .restorant .cards .right .restorant-name h4 {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  .restorant .cards .right ul li span {
+    font-size: 14px;
+    margin: 0 -1px;
+  }
+  .restorant-name img {
+    width: 30px;
+  }
+  .restorant .cards .right .footer-text h5 {
+    margin: 0 -2px;
+    font-size: 15px;
+  }
+  .restorant .cards .right .footer-text img {
+    width: 20px;
+  }
+  .restorant .cards .right .footer-text {
+    top: 15px;
+  }
+  .qr {
+    width: 75%;
+  }
+  .restorant .cards .left .logo {
+    width: 170px;
+    height: 50px;
+    padding: 5px;
+  }
+  .restorant .cards .left .logo img {
+    width: 115px;
+  }
+  .restorant .cards .left {
+    border-radius: 0 0 0 15px;
+  }
+  .restorant .buttonsLike button {
+    width: 370px;
+    height: 45px;
+    font-size: 15px;
+    margin: 0 10px;
+  }
+  .restorant .buttonsLike #like-dislike button {
+    width: 45px;
+    height: 45px;
+  }
+  .restorant .buttonsLike #like-dislike button img {
+    width: 30px;
+  }
+  .restorant .cards .left {
+    justify-content: end;
+  }
+  .hero .row .content--hero .content h1 {
+    font-size: 55px;
+  }
 }

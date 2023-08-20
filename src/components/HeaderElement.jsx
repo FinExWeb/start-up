@@ -5,7 +5,6 @@ const HeaderElement = () => {
   return (
     <div className="header-main">
       <Main />
-      <hr />
       <h2
         className="my-5 text-center"
         style={{
@@ -14,9 +13,11 @@ const HeaderElement = () => {
           fontWeight: "600",
         }}
       >
-        ovqatlar menyusi
+        BIZDAGI <span style={{color: '#484483'}}>RESTORANLAR</span> RO’YHATI
       </h2>
       <div className="cards my-3">
+        <Restorant />
+        <Restorant />
         <Restorant />
         <Restorant />
       </div>
