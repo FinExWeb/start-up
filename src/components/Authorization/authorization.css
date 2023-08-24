@@ -21,7 +21,6 @@
     font-size: 16.676px;
     font-weight: 500;
     letter-spacing: 0.334px;
-    text-transform: capitalize;
 }
 
 .container .login form input::placeholder {

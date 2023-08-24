@@ -67,17 +67,17 @@ function Navbar() {
                             <i className='fas fa-close'></i>
                         </button>
                         <ul>
-                            <Link to='/'>
+                            <Link to='/' onClick={showNavbar}>
                                 <span>Asosiy</span>
                                 <img src={Home} alt="Home" />
                             </Link>
 
-                            <Link to='/menu'>
+                            <Link to='/menu' onClick={showNavbar}>
                                 <span>Menu</span>
                                 <img src={Menu} alt="Menu" />
                             </Link>
 
-                            <Link to='/problems'>
+                            <Link to='/problems' onClick={showNavbar}>
                                 <span>Shikoyat</span>
                                 <img src={Contact} alt="Contact" />
                             </Link>
