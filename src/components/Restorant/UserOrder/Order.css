@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Pridi:wght@100;200;300;400;500;600;700&display=swap);
+
+.user---order .alertContainer .alerts {
+    border-radius: 10px;
+    background: rgba(97, 255, 0, 0.26);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    width: 426px;
+    color: #2C7700;
+    font-family: 'Press Start 2P', display;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.user---order .alertContainer .alerts section h4 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.user---order .alertContainer .alerts:nth-child(2) {
+    margin: 0 20px;
+}
+
+.user---order .alertContainer .alerts:nth-child(2) h4 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.order---card {
+    border-radius: 10px;
+    background: rgba(108, 95, 188, 0.01);
+    box-shadow: 0px 0px 35px -10px rgba(108, 95, 188, 0.55);
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 50px 0;
+}
+
+.order---card .img {
+    position: relative;
+    top: 3px;
+}
+
+.order---card .img img {
+    width: 80px;
+}
+
+.order---card h3 {
+    color: #000;
+    font-family: Pridi;
+    font-size: 25px;
+    font-style: normal;
+    margin: 0;
+}
+
+.order---card span {
+    color: #6AA845;
+    font-family: Pridi;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25.558px;
+    letter-spacing: 1.5px;
+}
+
+.order---card hr {
+    width: 2px;
+    height: 75px;
+    background: rgba(108, 95, 188, 0.30);
+    border: none;
+    margin: 0 10px;
+}
+
+.order---card .food--button button {
+    border-radius: 10px;
+    background: #D1FBB8;
+    border: none;
+    color: #2C7700;
+    font-family: Pridi;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    width: 150px;
+    padding: 5px;
+    transition: transform 0.15s;
+}
+
+.order---card .food--button button:active {
+    transform: scale(1.1);
+}

@@ -3,6 +3,7 @@ import truck from './img/truck.svg'
 import check from './img/check.svg'
 import order from './img/order.svg'
 import './css/food.css'
+import { Link } from "react-router-dom";
 const Alert = () => {
     return (
         <div className="input--alert">
@@ -14,13 +15,12 @@ const Alert = () => {
                 </section>
                 <img src={check} alt="check" />
             </div>
-            <div className="alerts">
+            <Link to='/restaurant/user-order' className="alerts text-decoration-none">
                 <img src={order} alt="order" />
                 <section>
-                    <h4 className="text-uppercase">buyurtmalarni <br />
-                        ko’rish</h4>
+                    <h4 className="text-uppercase">buyurtmalarni <br />ko’rish</h4>
                 </section>
-            </div>
+            </Link>
         </div>
     )
 }

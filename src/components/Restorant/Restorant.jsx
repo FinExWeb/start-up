@@ -53,7 +53,7 @@ const Restorant = () => {
           </div>
         </div>
         <div className="buttonsLike d-flex align-items-center">
-          <Link to='/restaurant/star-burger' style={{ textDecoration: 'none' }}>
+          <Link to='/restaurant' style={{ textDecoration: 'none' }}>
             <button>OVQATLARNI KO’RISH VA BUYURTMA QILISH</button>
           </Link>
           <section id="like-dislike">
