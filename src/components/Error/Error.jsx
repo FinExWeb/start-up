@@ -15,7 +15,6 @@ function Error() {
       >
         <button>Orqaga qaytish</button>
       </Link>
-      {/* h1! */}
     </>
   );
 }

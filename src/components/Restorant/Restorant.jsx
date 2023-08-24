@@ -7,6 +7,7 @@ import borderCoffe from "./Background/Icons/borderCoffe.svg";
 import website from "./Background/Icons/website.svg";
 import heart from './Background/Icons/heart.svg'
 import brokenHEart from './Background/Icons/brokenHEart.svg'
+import { Link } from "react-router-dom";
 const Restorant = () => {
   return (
     <>
@@ -52,13 +53,15 @@ const Restorant = () => {
           </div>
         </div>
         <div className="buttonsLike d-flex align-items-center">
-          <button>OVQATLARNI KO’RISH VA BUYURTMA QILISH</button>
+          <Link to='/restaurant/star-burger' style={{ textDecoration: 'none' }}>
+            <button>OVQATLARNI KO’RISH VA BUYURTMA QILISH</button>
+          </Link>
           <section id="like-dislike">
             <button>
-                <img src={heart} alt="" />
+              <img src={heart} alt="" />
             </button>
             <button>
-                <img src={brokenHEart} alt="" />
+              <img src={brokenHEart} alt="" />
             </button>
           </section>
         </div>

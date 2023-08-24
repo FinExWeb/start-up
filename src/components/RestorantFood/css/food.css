@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+
+.restorant--foods .input--alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.restorant--foods .input--alert .alerts:nth-child(1) {
+    width: 950px;
+}
+
+.restorant--foods .input--alert .alerts {
+    border-radius: 10px;
+    background: rgba(97, 255, 0, 0.26);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    height: 100px;
+    align-items: center;
+}
+
+.restorant--foods .alerts section {
+    position: relative;
+    top: 5px;
+}
+
+.restorant--foods .alerts section h4 {
+    color: #2C7700;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.restorant--foods .input--alert .alerts:nth-child(2) {
+    align-items: center;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Quantico:wght@100;200;300;400;500;600;700&display=swap);
+
+.restorant--foods .cards h1 {
+    font-family: Quantico;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

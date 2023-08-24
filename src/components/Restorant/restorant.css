@@ -47,12 +47,15 @@
 }
 
 @import url(https://fonts.googleapis.com/css2?family=Inder&display=swap);
+
 .restorant .cards .right ul {
   margin: 10px 30px;
 }
+
 .restorant .cards .right ul li {
   margin: 10px 0;
 }
+
 .restorant .cards .right ul li span {
   color: #fff;
   font-feature-settings: "clig" off, "liga" off;
@@ -79,12 +82,15 @@
   font-weight: 400;
   margin: 0 5px;
 }
+
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
 .restorant .buttonsLike {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
+
 .restorant .buttonsLike button {
   border-radius: 8px;
   background: #4a55a2 !important;
@@ -104,13 +110,16 @@
   height: 65px;
   transition: 0.1s all;
 }
+
 .restorant .buttonsLike #like-dislike button:hover img {
   animation: heart 0.3s infinite ease-out;
 }
+
 @keyframes heart {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.2);
   }
@@ -118,13 +127,16 @@
   80% {
     transform: scale(1.3);
   }
+
   100% {
     transform: scale(1.1);
   }
 }
+
 .restorant .buttonsLike #like-dislike button img {
   margin: 0 -5px;
 }
+
 .restorant .buttonsLike #like-dislike button:active {
   transform: rotate(20deg);
 }
@@ -136,67 +148,85 @@
     border-radius: 15px;
     margin: 10px;
   }
+
   .restorant .cards .right {
     width: 229px;
   }
+
   .restorant .cards .right ul {
     margin: 10px 3px;
   }
+
   .restorant .cards .right .restorant-name h4 {
     font-size: 18px;
     margin: 0 5px;
   }
+
   .restorant .cards .right ul li span {
     font-size: 14px;
     margin: 0 -1px;
   }
+
   .restorant-name img {
     width: 30px;
   }
+
   .restorant .cards .right .footer-text h5 {
     margin: 0 -2px;
     font-size: 15px;
   }
+
   .restorant .cards .right .footer-text img {
     width: 20px;
   }
+
   .restorant .cards .right .footer-text {
     top: 15px;
   }
+
   .qr {
     width: 75%;
   }
+
   .restorant .cards .left .logo {
     width: 170px;
     height: 50px;
     padding: 5px;
   }
+
   .restorant .cards .left .logo img {
     width: 115px;
   }
+
   .restorant .cards .left {
     border-radius: 0 0 0 15px;
   }
+
   .restorant .buttonsLike button {
     width: 370px;
     height: 45px;
     font-size: 15px;
     margin: 0 10px;
   }
+
   .restorant .buttonsLike #like-dislike button {
     width: 45px;
     height: 45px;
   }
+
   .restorant .buttonsLike #like-dislike button img {
     width: 30px;
   }
+
   .restorant .cards .left {
     justify-content: end;
   }
+
   .hero .row .content--hero .content h1 {
     font-size: 55px;
   }
 }
+
 @media (max-width: 1366px) {
   .restorant .cards {
     max-width: 500px;
@@ -204,64 +234,106 @@
     border-radius: 15px;
     margin: 10px;
   }
+
   .restorant .cards .right {
     width: 229px;
   }
+
   .restorant .cards .right ul {
     margin: 10px 3px;
   }
+
   .restorant .cards .right .restorant-name h4 {
     font-size: 18px;
     margin: 0 5px;
   }
+
   .restorant .cards .right ul li span {
     font-size: 14px;
     margin: 0 -1px;
   }
+
   .restorant-name img {
     width: 30px;
   }
+
   .restorant .cards .right .footer-text h5 {
     margin: 0 -2px;
     font-size: 15px;
   }
+
   .restorant .cards .right .footer-text img {
     width: 20px;
   }
+
   .restorant .cards .right .footer-text {
     top: 15px;
   }
+
   .qr {
     width: 75%;
   }
+
   .restorant .cards .left .logo {
     width: 170px;
     height: 50px;
     padding: 5px;
   }
+
   .restorant .cards .left .logo img {
     width: 115px;
   }
+
   .restorant .cards .left {
     border-radius: 0 0 0 15px;
   }
+
   .restorant .buttonsLike button {
     width: 370px;
     height: 45px;
     font-size: 15px;
     margin: 0 10px;
   }
+
   .restorant .buttonsLike #like-dislike button {
     width: 45px;
     height: 45px;
   }
+
   .restorant .buttonsLike #like-dislike button img {
     width: 30px;
   }
+
   .restorant .cards .left {
     justify-content: end;
   }
+
   .hero .row .content--hero .content h1 {
     font-size: 55px;
+  }
+}
+
+
+/* @media screen and (max-width: 1920px) and (min-width: 1550px) {
+
+} */
+
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .restorant .cards .right {
+    width: 225px;
+  }
+
+  .restorant .buttonsLike #like-dislike {
+    display: flex;
+  }
+  .restorant .buttonsLike button{
+    width: 355px;
+  }
+}
+
+@media screen and (max-width: 542px) and (min-width: 459px){
+  .restorant .cards .right {
+    width: 220px;
   }
 }
