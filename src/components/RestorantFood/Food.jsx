@@ -12,27 +12,13 @@ const Food = () => {
                     <h1>PREMIUM BURGER</h1>
                     <div className="cardContainer my-5 d-flex align-items-star flex-wrap">
                         <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
                     </div>
                     <h1>issiq lavash</h1>
                     <div className="cardContainer my-5 d-flex align-items-star flex-wrap">
                         <Card />
-                        <Card />
-                        <Card />
-                        <Card />
                     </div>
                     <h1>coffee</h1>
                     <div className="cardContainer my-5 d-flex align-items-star flex-wrap">
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
                         <Card />
                     </div>
                 </div>

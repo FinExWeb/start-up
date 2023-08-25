@@ -12,10 +12,6 @@ function Menu() {
         </p>
         <div className="cards my-5">
           <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
         </div>
       </div>
     </>
